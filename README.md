@@ -1,4 +1,5 @@
 # weather
+[![Dart](https://github.com/sapatevaibhav/weather/actions/workflows/dart.yml/badge.svg)](https://github.com/sapatevaibhav/weather/actions/workflows/dart.yml)
 A simple weather App
 
 ## Getting Started
