@@ -42,7 +42,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_spinkit: ^5.2.0
+  flutter_spinkit: ^4.1.2
   flutter_launcher_icons: "^0.13.1"
   weather_icons: 3.0.0
 
