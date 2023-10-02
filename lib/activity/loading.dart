@@ -35,7 +35,7 @@ class _LoadingState extends State<Loading> {
       description = instance.description;
       icon = instance.icon;
 
-      Future.delayed(Duration(seconds: 3), () {
+      Future.delayed(Duration(seconds: 1), () {
         Navigator.pushReplacementNamed(context, '/home', arguments: {
           // To call the home 7rame as well as throw the grabbed data to it.
           "temp": temperature, // degree celcius
