@@ -1,5 +1,5 @@
 # weather
-A simple weather App
+A simple weather App.
 
 ## Getting Started
 
