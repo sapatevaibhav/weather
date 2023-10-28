@@ -1,16 +1,34 @@
 ## Weather application
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/sapatevaibhav/weather) ![Downloads](https://img.shields.io/github/downloads/sapatevaibhav/weather/total)
+<!--
+[![Build](https://github.com/sapatevaibhav/weather/actions/workflows/flutter.yml/badge.svg)](https://github.com/sapatevaibhav/weather/actions/workflows/flutter.yml) 
+-->
+
 ### Short Description:
 An application for viewing the weather
+
+## Download
+
+
+[<img src="readme/get_github.png"
+     alt="Download from GitHub"
+     height="90">](https://github.com/sapatevaibhav/weather/releases)
+     [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
+     alt="Get it on IzzyDroid"
+     height="90">](https://android.izzysoft.de/repo/apk/com.sappu.weather)
+<!--[<img src="readme/get_telegram.png"
+     alt="Join Telegram Channel"
+     height="90">](https://t.me/) 
+ [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="90">](https://f-droid.org/packages/) -->
+
 
 ### Description:
 
 This is a very simple weather application.<br>
 It provides Search functionality for your city. <br>
 Built using flutter...<br>
-
-
-
-
 
 This application allows you to view the weather in your city.
 The following options are provided:
@@ -37,6 +55,8 @@ We also tried to make the design as convenient and beautiful as possible.
 
 <img src='/readme/1.png' width='200'/> <img src='/readme/2.png' width='200'/> <img src='/readme/3.png' width='200'/> <img src='/readme/4.png' width='200'/>
 
-Get the latest APK from the [Releases Section](https://github.com/sapatevaibhav/weather/releases/latest).
+<!--Get the latest APK from the [Releases Section](https://github.com/sapatevaibhav/weather/releases/latest).
 
-<!-- You can also find the app on IzzyOnDroid via a F-Droid client [here](). -->
+ You can also find the app on IzzyOnDroid via a F-Droid client [here](). -->
+
+ If you like my work; Express it by starring the repo...
