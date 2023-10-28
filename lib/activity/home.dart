@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors, avoid_print
-
 import 'dart:math';
 import "package:weather_icons/weather_icons.dart";
 import 'package:flutter/material.dart';
@@ -74,23 +72,15 @@ class _HomeState extends State<Home> {
                   // Container for search
                   padding: EdgeInsets.symmetric(horizontal: 10),
                   margin: EdgeInsets.symmetric(horizontal: 14, vertical: 30),
-
                   decoration: BoxDecoration(
-                      color: Colors.black12,
-                      borderRadius: BorderRadius.circular(25)),
+                    color: Colors.black12,
+                    borderRadius: BorderRadius.circular(25),
+                  ),
                   child: Row(
                     children: [
                       GestureDetector(
                         onTap: () {
-                          if (searchController.text.replaceAll(" ", "") == "") {
-                            //pass
-                          } else {
-                            Navigator.pushReplacementNamed( context, "/loading",
-                                arguments: {
-                                  "searchText":
-                                      searchController.text.replaceAll(" ", ""),
-                                });
-                          }
+                          performSearch();
                         },
                         child: Container(
                           margin: EdgeInsets.fromLTRB(5, 0, 10, 0),
@@ -98,12 +88,17 @@ class _HomeState extends State<Home> {
                         ),
                       ),
                       Expanded(
-                          child: TextField(
-                        controller: searchController,
-                        decoration: InputDecoration(
+                        child: TextField(
+                          controller: searchController,
+                          decoration: InputDecoration(
                             border: InputBorder.none,
-                            hintText: "Search for $city..."),
-                      ))
+                            hintText: "Search for $city...",
+                          ),
+                          onSubmitted: (value) {
+                            performSearch();
+                          },
+                        ),
+                      ),
                     ],
                   ),
                 ),
@@ -286,7 +281,18 @@ class _HomeState extends State<Home> {
       ),
     );
   }
+
+  void performSearch() {
+    if (searchController.text.replaceAll(" ", "") == "") {
+      // Do nothing or display an error message.
+    } else {
+      Navigator.pushReplacementNamed(context, "/loading", arguments: {
+        "searchText": searchController.text.replaceAll(" ", ""),
+      });
+    }
+  }
 }
+
 
 String capitalizeFirstLetter(String input) {
   if (input.isEmpty) {
