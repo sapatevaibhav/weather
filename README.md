@@ -16,8 +16,6 @@ This application allows you to view the weather in your city.
 The following options are provided:
 
 - View current weather
-- View weather by hour
-- View the weather for the week
 - View detailed weather data
 - Data caching
 - Choose the city yourself
