@@ -37,7 +37,6 @@ The following options are provided:
 - View detailed weather data
 - Data caching
 - Choose the city yourself
-- .
 - Weather with image
 - Temperature
 - Speed of Air
@@ -59,4 +58,34 @@ We also tried to make the design as convenient and beautiful as possible.
 
  You can also find the app on IzzyOnDroid via a F-Droid client [here](). -->
 
- If you like my work; Express it by starring the repo...
+ <br>
+
+ ### Why this app
+ 
+ ✔️ No location tracker <br>
+ ✔️ No Advertisements<br>
+ ✔️ No Analytics<br>
+ ✔️ No device tracking<br>
+ ✔️ No extra permissions needed<br><br>
+
+ ## Build with me
+
+1. Clone this repository by using this command
+```bash
+git clone https://github.com/sapatevaibhav/weather
+```
+
+2. Change the working directory to
+```bash
+cd weather
+```
+
+3. Get dependencies by and run
+```bash
+flutter pub get
+flutter run
+```
+
+This application contains minimal code so anyone with the basic knowledge of Flutter can customize it as per their needs.
+
+ If you like my work; Express it by starring the repo ★★★
