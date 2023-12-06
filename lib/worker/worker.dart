@@ -34,7 +34,7 @@ class worker {
     // Fetch the data from API
     try {
       Response weather = await get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/weather?q=$location&appid=af37589d237c4246eb7ec7a13e6daec9"));
+          "https://api.openweathermap.org/data/2.5/weather?q=$location&appid=$")); //Enter your api key here
       if (weather.statusCode == 200) {
         Map weather1 = jsonDecode(weather.body);
 
